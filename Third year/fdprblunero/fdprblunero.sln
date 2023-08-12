@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fdprblunero", "fdprblunero\fdprblunero.csproj", "{38A10F7E-3559-4B64-BA61-EEFDA659F15C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38A10F7E-3559-4B64-BA61-EEFDA659F15C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38A10F7E-3559-4B64-BA61-EEFDA659F15C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38A10F7E-3559-4B64-BA61-EEFDA659F15C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38A10F7E-3559-4B64-BA61-EEFDA659F15C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E5DF28A9-F2FB-4CB2-AD42-BC30DD6E0473}
+	EndGlobalSection
+EndGlobal

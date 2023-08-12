@@ -1,0 +1,26 @@
+﻿<Window x:Class="PaintSourceWPF.FinestraColore"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PaintSourceWPF"
+        mc:Ignorable="d"
+        Title="FinestraColore" Height="266.842" Width="465.263">
+    <Grid >
+        <Canvas >
+            <TextBlock Canvas.Left="121" TextWrapping="Wrap" Text="R" Canvas.Top="61"/>
+            <TextBlock Canvas.Left="230" TextWrapping="Wrap" Text="G" Canvas.Top="64"/>
+            <TextBlock Canvas.Left="322" TextWrapping="Wrap" Text="B" Canvas.Top="64"/>
+            <TextBox Name="Rosso" HorizontalAlignment="Left" Height="23" Margin="92,109,0,0" 
+                     TextWrapping="Wrap" Text="255" VerticalAlignment="Top" Width="60"/>
+            <TextBox Name="Verde" HorizontalAlignment="Left" Height="23" Margin="200,109,0,0" 
+                     TextWrapping="Wrap" Text="255" VerticalAlignment="Top" Width="60" RenderTransformOrigin="1.637,0.471"/>
+            <TextBox Name="Blue" HorizontalAlignment="Left" Height="23" Margin="300,109,0,0" 
+                     TextWrapping="Wrap" Text="255" VerticalAlignment="Top" Width="60" RenderTransformOrigin="2.453,0.746"/>
+            <Button Content="Ok" Canvas.Left="105" Canvas.Top="174" Width="75" 
+                    IsDefault="True" Click="Ok_Click"/>
+            <Button Content="Annulla" Canvas.Left="279" Canvas.Top="174" Width="75" IsCancel="True" Click="Annulla_Click"/>
+
+        </Canvas>
+    </Grid>
+</Window>

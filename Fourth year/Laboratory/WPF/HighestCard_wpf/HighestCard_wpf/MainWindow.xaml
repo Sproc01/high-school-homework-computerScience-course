@@ -1,0 +1,19 @@
+﻿<Window x:Class="HighestCard_wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HighestCard_wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Image HorizontalAlignment="Left" Height="312" Margin="72,24,0,0" VerticalAlignment="Top" Width="192" Name="imgCard1" Stretch="Fill" Grid.ColumnSpan="2"/>
+        <Image HorizontalAlignment="Left" Height="312" Margin="522,24,0,0" VerticalAlignment="Top" Width="192" Name="imgCard2" Stretch="Fill" Grid.ColumnSpan="2"/>
+        <Button Content="Pesca" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="322,389,0,0" Name="btnPesca" Click="BtnPesca_Click" Grid.ColumnSpan="2"/>
+        <Label Grid.ColumnSpan="2" Content="" HorizontalAlignment="Left" Margin="294,60,0,0" VerticalAlignment="Top" Width="190" Name="lblContents"/>
+    </Grid>
+</Window>

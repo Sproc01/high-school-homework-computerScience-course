@@ -1,0 +1,1 @@
+ALTER TABLE modelli add Id_modello int primary key identity(1,1);

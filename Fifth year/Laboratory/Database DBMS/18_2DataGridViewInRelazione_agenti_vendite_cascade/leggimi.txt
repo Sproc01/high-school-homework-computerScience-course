@@ -1,0 +1,3 @@
+il programma mette in relazione due tabelle con cancellazione a cascata.
+Le tabelle sono state create con un vincolo di chiave esterna definendo la cancellazione a cascata sul database.
+

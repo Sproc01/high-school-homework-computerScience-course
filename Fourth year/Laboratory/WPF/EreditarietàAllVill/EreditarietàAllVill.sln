@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EreditarietàAllVill", "EreditarietàAllVill\EreditarietàAllVill.csproj", "{6442B817-24BF-4440-B575-66C3A262684F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libraryAlloggioVilla", "libraryAlloggioVilla\libraryAlloggioVilla.csproj", "{E955B76B-AC47-450A-869E-CAE3372A8BEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6442B817-24BF-4440-B575-66C3A262684F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6442B817-24BF-4440-B575-66C3A262684F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6442B817-24BF-4440-B575-66C3A262684F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6442B817-24BF-4440-B575-66C3A262684F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E955B76B-AC47-450A-869E-CAE3372A8BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E955B76B-AC47-450A-869E-CAE3372A8BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E955B76B-AC47-450A-869E-CAE3372A8BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E955B76B-AC47-450A-869E-CAE3372A8BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C338D559-F1A6-46CB-9020-21F7405644CD}
+	EndGlobalSection
+EndGlobal

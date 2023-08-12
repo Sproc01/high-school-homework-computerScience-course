@@ -1,0 +1,26 @@
+﻿<Window x:Class="EreditarietàAllVill.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EreditarietàAllVill"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="605">
+    <Canvas>
+        <Button Click="btncrea_Click" Name="btncrea" Content="Crea Alloggio" Canvas.Left="180" Canvas.Top="277" Width="92"/>
+        <Button Click="btnvisualizza_Click" Name="btnvisualizza" Content="Visualizza Info" Canvas.Left="290" Canvas.Top="277" Width="92"/>
+        <Button Click="btnelimina_Click"  Name="btnelimina" Content="Elimina" Canvas.Left="67" Canvas.Top="277" Width="92"/>
+        <TextBlock HorizontalAlignment="Left" Margin="44,68,0,0" TextWrapping="Wrap" Text="Codice Alloggio" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="44,112,0,0" TextWrapping="Wrap" Text="Numero Persone" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="44,164,0,0" TextWrapping="Wrap" Text="Metri Quadri Appartamento" VerticalAlignment="Top"/>
+        <TextBlock Name="txtbmetrigiardino" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Metri Quadri Giardino(opzionale)" VerticalAlignment="Top" Canvas.Left="44" Canvas.Top="212" Width="148"/>
+        <TextBox PreviewTextInput="txtmetriquadrialloggio_PreviewTextInput" Name="txtmetriquadrigiardino" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Canvas.Left="216" Canvas.Top="211"/>
+        <TextBox PreviewTextInput="txtmetriquadrialloggio_PreviewTextInput" Name="txtmetriquadrialloggio" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Canvas.Left="216" Canvas.Top="157"/>
+        <TextBox PreviewTextInput="txtcodice_PreviewTextInput" Name="txtnumeropersone" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Canvas.Left="216" Canvas.Top="111"/>
+        <TextBox PreviewTextInput="txtcodice_PreviewTextInput" Name="txtcodice" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Canvas.Left="216" Canvas.Top="67"/>
+        <TextBlock Name="txtbacqua" Canvas.Left="392" TextWrapping="Wrap" Text="" Canvas.Top="68"/>
+        <TextBlock Name="txtbdensità" Canvas.Left="392" TextWrapping="Wrap" Text="" Canvas.Top="118"/>
+        <TextBlock Name="txtbcostoalloggio" Canvas.Left="392" TextWrapping="Wrap" Text="" Canvas.Top="164"/>
+        <CheckBox Name="creavillachecked" Unchecked="CheckBox_Unchecked" Checked="CheckBox_Checked" Content="Crea Villa" Canvas.Left="408" Canvas.Top="277"/>
+    </Canvas>
+</Window>

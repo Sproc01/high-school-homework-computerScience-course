@@ -1,0 +1,25 @@
+form (prelevare input dati villa e alloggio, due pulsanti per stamapare le caratteristiche, visualizzare tutti i dati)
+===============================================================================
+classi alloggio e villa
+villa eredita da alloggio ma con alcune caratteristiche in più
+===============================================================================
+alloggio
+//dati
+- codice alloggio(int)
+- metri quadri(double)
+- num persone(int)
+//proprietà
+-getcodice
+-getnumpersone
+-getmetriquadri
+//metodi
+-double costoacqua(double v)[v*num person]//v=15.5$
+-costoalloggio(double costm)[costm*metri quadri]
+densità()[metriquadri/numpersone]
+==============================================================================
+villa:alloggio
+//dati
+-giardino //metri quadri giardino
+//metodi
+-valore(costm, costg )[metri quadri*costm+costg*giardino]//costg=700$, costg=2000$
+-densità()[(metriquadriall+ metrigiardio)/numpersone]

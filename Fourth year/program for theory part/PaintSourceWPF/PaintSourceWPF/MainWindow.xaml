@@ -1,0 +1,31 @@
+﻿<Window x:Class="PaintSourceWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PaintSourceWPF"
+        mc:Ignorable="d"
+        Title="Appunti" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Orientation="Vertical" Grid.Column="0">
+            <Button Name="Operazione" Content="Disegna / Cancella" Margin="20" Click="Operazione_Click"></Button>
+            <Button Name="Colore" Content="Colore" Margin="20" Click="Colore_Click"></Button>
+            <TextBox Name="Spessore" Height="23" TextWrapping="Wrap" Text="10.00"  Margin="20" 
+                     LostFocus="Spessore_LostFocus" MouseLeave="Spessore_MouseLeave"/>
+            <Button Name="Clear" Content="Clear" Margin="20" Click="Clear_Click"></Button>
+            <Button Name="Apri" Content="Apri" Margin="20" Click="Apri_Click" />
+            <Button Name="Salva" Content="Salva" Margin="20" Click="Salva_Click"/>
+        </StackPanel>
+        <Canvas Grid.Column="1" Name="paintSurface" MouseDown="Canvas_MouseDown" 
+                MouseMove="Canvas_MouseMove" MouseUp="Canvas_MouseUp" Margin="10"
+                MouseEnter="paintSurface_MouseEnter" MouseLeave="paintSurface_MouseLeave">
+                <Canvas.Background>
+                    <SolidColorBrush Color="Yellow" />
+                </Canvas.Background>
+        </Canvas>
+    </Grid>
+</Window>

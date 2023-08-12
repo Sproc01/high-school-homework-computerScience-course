@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaintSourceWPF", "PaintSourceWPF\PaintSourceWPF.csproj", "{04868436-131E-47DB-9FE9-745741B6FD3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04868436-131E-47DB-9FE9-745741B6FD3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04868436-131E-47DB-9FE9-745741B6FD3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04868436-131E-47DB-9FE9-745741B6FD3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04868436-131E-47DB-9FE9-745741B6FD3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BF006A8-C609-46D1-8502-A652ECE219D8}
+	EndGlobalSection
+EndGlobal

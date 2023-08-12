@@ -1,0 +1,4 @@
+SELECT * INTO Classi2
+FROM CLASSI
+
+DROP TABLE Classi2

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fdprVerifica", "fdprVerifica\fdprVerifica.csproj", "{42A3050D-8DD2-4A82-92CE-E1B57646E8AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42A3050D-8DD2-4A82-92CE-E1B57646E8AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A3050D-8DD2-4A82-92CE-E1B57646E8AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A3050D-8DD2-4A82-92CE-E1B57646E8AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A3050D-8DD2-4A82-92CE-E1B57646E8AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DCA14D7-192C-4A63-8C4A-D9BDD18F35A1}
+	EndGlobalSection
+EndGlobal

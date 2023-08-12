@@ -1,0 +1,1 @@
+select * into modelli2 from Modelli

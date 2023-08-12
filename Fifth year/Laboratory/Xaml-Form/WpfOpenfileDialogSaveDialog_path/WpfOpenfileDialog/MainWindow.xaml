@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfOpenfileDialog.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfOpenfileDialog"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <DockPanel Margin="20" Background="Azure">
+        <WrapPanel  Background="Orange" HorizontalAlignment="Left" DockPanel.Dock="Top" Margin="0,10,0,10">
+            <Button Width="100" Name="btnOpenFile" Margin="10,0,10,0" Click="btnOpenFile_Click" Height="24">Open file</Button>
+            <Button Width="100"  Name="btnSaveFile" Margin="10,0,10,0" Click="btnSaveFile_Click">Save file</Button>
+        </WrapPanel>
+        <TextBox  Name="txtEditor" TextWrapping="Wrap" AcceptsReturn="True" ScrollViewer.VerticalScrollBarVisibility="Auto" />
+<!--l'ultimo elemento del dockpanel assume tutto lo spazio-->
+    </DockPanel>
+
+</Window>

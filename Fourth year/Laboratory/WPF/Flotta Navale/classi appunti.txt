@@ -1,0 +1,17 @@
+Flotta Navale
+{
+	Membri: Lista navi, lista comandanti, nome armatore(proprietario), sede, nome della flotta
+	Operazioni: Crea flotta, Visualizzazione
+}
+
+Nave
+{ 
+	Membri: nome(no omonimi), stazza, velocità, stato(cantiere, varata, demolita), comandante;
+	Operazioni(form modale): crearla, modifica, cancellazione, visualizzazione;
+	form principale->lista navi(selezionare nave per modifica, cancella), creazione da menu;
+}
+Comandante
+{
+	Membri: nome(no omonimi), stato(in servizio, in pensione, lincenziato), Data nascita, Num telefono, Nave;
+	Operazioni(form modale): crearla, modifica, cancellazione, visualizzazione;
+}

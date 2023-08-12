@@ -1,0 +1,22 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:conto.corrente"
+        xmlns:library="clr-namespace:library;assembly=library" x:Class="conto.corrente.WindowMovimenti"
+        mc:Ignorable="d"
+        Title="WindowMovimenti" Height="316.147" Width="431.586">
+    <Canvas Margin="0,0,2,11">
+        <ComboBox x:Name="cmbtipo" HorizontalAlignment="Left" Margin="42,141,0,0" VerticalAlignment="Top" Width="120" IsReadOnly="True">
+            <ComboBoxItem>Prelievo</ComboBoxItem>
+            <ComboBoxItem>Versamento</ComboBoxItem>
+        </ComboBox>
+        <TextBox PreviewTextInput="txtimporto_PreviewTextInput" x:Name="txtimporto" HorizontalAlignment="Left" Height="23" Margin="42,79,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" />
+        <Label Content="Inserire importo movimento" HorizontalAlignment="Left" Margin="42,48,0,0" VerticalAlignment="Top"/>
+        <Label Content="Selezionare tipo di movimento" HorizontalAlignment="Left" Margin="42,107,0,0" VerticalAlignment="Top" Height="29"/>
+        <Button x:Name="btnok" Content="OK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Canvas.Left="126" Canvas.Top="189" Click="btnok_Click"/>
+        <Button x:Name="btnannulla" Content="Annulla" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Canvas.Left="232" Canvas.Top="189" Click="btnannulla_Click"/>
+        <DatePicker x:Name="calendar" Canvas.Left="252" Canvas.Top="48" Height="88" Width="153"/>
+    </Canvas>
+</Window>

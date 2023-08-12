@@ -1,0 +1,36 @@
+﻿<Window x:Class="CardGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CardGame"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="407.415" Width="739" BorderThickness="0" Visibility="Visible" Background="WhiteSmoke" Foreground="Black" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFBD4601" Offset="0.884"/>
+                <GradientStop Color="#FFD3AC00" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button x:Name="btnNewGame" Content="New Game" HorizontalAlignment="Left" Margin="10,333,0,0" VerticalAlignment="Top" Width="99" Background="{x:Null}" BorderBrush="#FF19E005" Height="30" Click="btnNewGame_Click"/>
+        <Grid HorizontalAlignment="Left" Height="328" VerticalAlignment="Top" Width="731">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF0D8F00" Offset="0"/>
+                    <GradientStop Color="#FF19E005" Offset="1"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Label x:Name="lblNameG1" Content="G1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="96,10,0,0"/>
+            <Label x:Name="lblPointsG1" Content="0" HorizontalAlignment="Left" Margin="121,36,0,0" VerticalAlignment="Top"/>
+            <Label x:Name="lblNameG2" Content="G2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="525,10,0,0"/>
+            <Label x:Name="lblPointsG2" Content="0" HorizontalAlignment="Left" Margin="550,36,0,0" VerticalAlignment="Top"/>
+            <Label Content="Points:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="76,36,0,0"/>
+            <Label Content="Points:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="505,36,0,0"/>
+            <Button x:Name="btnEstrai1" Content="Estrai" HorizontalAlignment="Left" Margin="317,269,0,0" VerticalAlignment="Top" Width="75" Click="btnEstrai1_Click"/>
+            <Image x:Name="pbG1" HorizontalAlignment="Left" Height="197" Margin="53,67,0,0" VerticalAlignment="Top" Width="119"/>
+            <Image x:Name="pbG2" HorizontalAlignment="Left" Height="197" Margin="479,67,0,0" VerticalAlignment="Top" Width="119"/>
+        </Grid>
+
+    </Grid>
+</Window>

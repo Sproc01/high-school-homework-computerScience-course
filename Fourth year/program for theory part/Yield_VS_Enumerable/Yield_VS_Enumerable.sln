@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yield_VS_Enumerable", "Yield_VS_Enumerable\Yield_VS_Enumerable.csproj", "{30BB3769-085E-4D55-8B44-B961ADA15D6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30BB3769-085E-4D55-8B44-B961ADA15D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30BB3769-085E-4D55-8B44-B961ADA15D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30BB3769-085E-4D55-8B44-B961ADA15D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30BB3769-085E-4D55-8B44-B961ADA15D6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEA0CC35-DC57-4A48-9129-2B8361DC995B}
+	EndGlobalSection
+EndGlobal

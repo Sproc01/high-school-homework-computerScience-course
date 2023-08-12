@@ -1,0 +1,2 @@
+insert into NewModelli(Modello,Prezzo,Cilindrata,[Consumo urbano],[Consumo extra urb],Codice_marca,Tipo)
+select Modello,Prezzo,Cilindrata,[Consumo urbano],[Consumo extra urb],Codice_marca,Tipo from modelli;

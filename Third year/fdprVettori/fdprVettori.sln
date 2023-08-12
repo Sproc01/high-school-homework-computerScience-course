@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fdprVettori", "fdprVettori\fdprVettori.csproj", "{CA7DD53F-FC79-4C27-9E9D-F00C30E2F5DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA7DD53F-FC79-4C27-9E9D-F00C30E2F5DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA7DD53F-FC79-4C27-9E9D-F00C30E2F5DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA7DD53F-FC79-4C27-9E9D-F00C30E2F5DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA7DD53F-FC79-4C27-9E9D-F00C30E2F5DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2033F2F2-7641-4305-B64B-D32D05691494}
+	EndGlobalSection
+EndGlobal

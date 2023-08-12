@@ -1,0 +1,31 @@
+Esempi di trigger per SQL Server 
+
+Create Trigger TrigInsertOrdine 
+On ordini
+For  Insert , update
+As
+DECLARE @X DATETIME
+DECLARE @Y INT
+SELECT @X=DATAORDINE FROM inserted
+SELECT @Y=IDORDINE FROM inserted
+IF @X<'1/1/2004'
+BEGIN
+    RAISERROR('ERRORE SULLA DATA ALLA CHIAVE %u',16,1,@Y)
+    ROLLBACK TRAN
+END
+
+
+Create Trigger TrigInsertOrdine 
+On ordini
+For  Insert , update
+As
+
+DECLARE @X DATETIME
+DECLARE @Y DATETIME
+SELECT @X=DATAORDINE FROM inserted
+SELECT @Y=DATAORDINE FROM deleted
+IF @X<@Y
+BEGIN
+    RAISERROR('ERRORE SULLA DATA : NON PUO'' DIMINUIRE',16,1)
+    ROLLBACK TRAN
+END

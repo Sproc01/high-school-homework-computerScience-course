@@ -1,0 +1,27 @@
+﻿<Window x:Class="ProvaMenù.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProvaMenù"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Canvas>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top" >
+                <MenuItem Header="Crea">
+                    <MenuItem Header="Nave"/>
+                    <MenuItem Header="Comandante" Name="mComandante" Click="mComandante_Click"/>
+                </MenuItem>
+                <MenuItem Header="Dati Flotta">
+                </MenuItem>
+            </Menu>
+
+        </DockPanel>
+        <ListBox Name="lbNavi" Height="188" Canvas.Left="14" Canvas.Top="90" Width="170"/>
+        <TextBlock Name="txtNavi" Canvas.Left="16" TextWrapping="Wrap" Text="Navi" Canvas.Top="69"/>
+        <ListBox Name="lbComandanti" Height="188" Canvas.Left="263" Canvas.Top="90" Width="181"/>
+        <TextBlock Name="txtComandanti" Canvas.Left="265" TextWrapping="Wrap" Text="Comandanti" Canvas.Top="69"/>
+        <TextBlock Name="txtNomeFlotta" Canvas.Left="10" TextWrapping="Wrap" Text="Flotta:" Canvas.Top="33"/>
+    </Canvas>
+</Window>
