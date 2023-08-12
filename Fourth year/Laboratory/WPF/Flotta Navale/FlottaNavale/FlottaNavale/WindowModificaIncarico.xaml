@@ -1,0 +1,20 @@
+﻿<Window x:Class="FlottaNavale.WindowModificaIncarico"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FlottaNavale"
+        mc:Ignorable="d"
+        Title="Window Termina Incarico" Height="300" Width="300">
+    <Canvas>
+        <TextBox IsReadOnly="True" Name="txtnomenave" HorizontalAlignment="Left" Height="23" Margin="123,73,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="34,73,0,0" TextWrapping="Wrap" Text="Nave:" VerticalAlignment="Top" Width="50"/>
+        <DatePicker Name="dtfine" HorizontalAlignment="Left" Margin="123,161,0,0" VerticalAlignment="Top"/>
+        <TextBox IsReadOnly="True" Name="txtnomecom" HorizontalAlignment="Left" Height="23" Margin="123,120,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="34,165,0,0" TextWrapping="Wrap" Text="Data fine:" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="34,120,0,0" TextWrapping="Wrap" Text="Comandante:" VerticalAlignment="Top"/>
+        <Button Click="btnannulla_Click"  Name="btnannulla" Content="Annulla" HorizontalAlignment="Left" Margin="168,215,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Click="btnok_Click" Name="btnok" Content="Ok" HorizontalAlignment="Left" Margin="69,215,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBlock TextAlignment="Center" Canvas.Left="99" TextWrapping="Wrap" Text="Termina Incarico" Canvas.Top="22" Height="30" Width="67"/>
+    </Canvas>
+</Window>

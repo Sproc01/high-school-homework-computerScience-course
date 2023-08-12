@@ -1,0 +1,21 @@
+﻿<Window x:Class="FlottaNavale.WindowIncarichi"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FlottaNavale"
+        mc:Ignorable="d"
+        Title="Incarico" Height="310" Width="560">
+    <Canvas>
+        <TextBlock TextAlignment="Center" Canvas.Left="25" TextWrapping="Wrap" Text="Navi" Canvas.Top="22" Width="160"/>
+        <TextBlock TextAlignment="Center" Canvas.Left="375" TextWrapping="Wrap" Text="Comandanti" Canvas.Top="22" RenderTransformOrigin="0.969,0.673" Width="160"/>
+        <DatePicker Name="dtinizio" Canvas.Left="206" Canvas.Top="110" Width="150"/>
+        <TextBlock TextAlignment="Center" Canvas.Left="237" TextWrapping="Wrap" Text="Data inizio" Canvas.Top="77" Width="66"/>
+        <Button Click="btnok_Click" Name="btnok" Content="OK" Canvas.Left="206" Canvas.Top="239" Width="75" RenderTransformOrigin="0.581,0.741"/>
+        <Button Click="btnannulla_Click" Name="btnannulla" Content="Annulla" Canvas.Left="281" Canvas.Top="239" Width="75"/>
+        <ListBox Name="listboxnavi" Height="179" Canvas.Left="25" Canvas.Top="43" Width="160"/>
+        <ListBox Name="listboxcom" Height="179" Canvas.Left="375" Canvas.Top="43" Width="160"/>
+        <TextBlock TextAlignment="Center" FontSize="15" Canvas.Left="237" TextWrapping="Wrap" Text="Incarico" Canvas.Top="15" Height="23" Width="66"/>
+        <Button Name="btnrotta" Content="Rotta" Canvas.Left="237" Canvas.Top="171" Width="75" Click="Button_Click"/>
+    </Canvas>
+</Window>

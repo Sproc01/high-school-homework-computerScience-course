@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlottaNavale", "FlottaNavale\FlottaNavale.csproj", "{1F788419-345B-4B92-9ACC-A9F0AEA39C2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libraryflotta", "libraryflotta\libraryflotta.csproj", "{0A79EB2B-1156-4679-976C-77BB6D3A2E46}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F788419-345B-4B92-9ACC-A9F0AEA39C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F788419-345B-4B92-9ACC-A9F0AEA39C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F788419-345B-4B92-9ACC-A9F0AEA39C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F788419-345B-4B92-9ACC-A9F0AEA39C2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A79EB2B-1156-4679-976C-77BB6D3A2E46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A79EB2B-1156-4679-976C-77BB6D3A2E46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A79EB2B-1156-4679-976C-77BB6D3A2E46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A79EB2B-1156-4679-976C-77BB6D3A2E46}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F734487-3DC5-4227-A63B-F3868E88BBB3}
+	EndGlobalSection
+EndGlobal

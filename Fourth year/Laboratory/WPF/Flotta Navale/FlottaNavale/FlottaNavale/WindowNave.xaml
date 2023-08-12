@@ -1,0 +1,28 @@
+﻿<Window x:Class="flottanavale.WindowNave"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:flottanavale"
+        mc:Ignorable="d"
+        Title="Nave" Height="325" Width="315">
+    <Canvas>
+        <TextBox Name="txtnome" HorizontalAlignment="Left" Height="23" Margin="134,52,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.095,0.249"/>
+        <TextBlock HorizontalAlignment="Left" Height="23" Margin="25,52,0,0" TextWrapping="Wrap" Text="Nome" VerticalAlignment="Top" Width="90"/>
+        <TextBlock HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Stato Nave" VerticalAlignment="Top" Width="90" Canvas.Left="25" Canvas.Top="166"/>
+        <TextBlock HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Velocità" VerticalAlignment="Top" Width="90" Canvas.Left="25" Canvas.Top="126"/>
+        <TextBlock HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="Stazza" VerticalAlignment="Top" Width="90" Canvas.Left="25" Canvas.Top="89"/>
+        <TextBox PreviewTextInput="txtstazza_PreviewTextInput" Name="txtstazza" HorizontalAlignment="Left" Height="23" Margin="134,89,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.095,0.249"/>
+        <TextBox PreviewTextInput="txtstazza_PreviewTextInput" Name="txtvelocità" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.095,0.249" Canvas.Left="134" Canvas.Top="126"/>
+        <ComboBox SelectedIndex="0" Name="cmbstato" Canvas.Left="134" Canvas.Top="167" Width="120">
+            <ComboBoxItem>Cantiere</ComboBoxItem>
+            <ComboBoxItem>Varata</ComboBoxItem>
+            <ComboBoxItem>Demolita</ComboBoxItem>
+        </ComboBox>
+        <Button Click="btnok_Click" Name="btnok" Content="Ok" Canvas.Left="22.5" Canvas.Top="253" Width="75"/>
+        <Button Click="btnannulla_Click" Name="btnannulla" Content="Annulla" Canvas.Left="120" Canvas.Top="253" Width="75"/>
+        <CheckBox HorizontalContentAlignment="Center" Unchecked="rdbmodifica_Unchecked" Checked="rdbmodifica_Checked" Name="rdbmodifica" Content="Abilita modifica" Canvas.Left="113" Canvas.Top="206" Height="19" Width="107"/>
+        <Button Click="btncancella_Click"  Name="btncancella" Content="Cancella" Canvas.Left="217.5" Canvas.Top="253" Width="75"/>
+        <TextBlock TextAlignment="Center" FontSize="15" Canvas.Left="113" TextWrapping="Wrap" Text="Nave" Canvas.Top="10" Height="23" Width="66"/>
+    </Canvas>
+</Window>

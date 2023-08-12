@@ -1,0 +1,32 @@
+﻿<Window x:Class="FlottaNavale.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FlottaNavale"
+        mc:Ignorable="d"
+        Title="Flotta" Height="518" Width="525">
+    <Canvas>
+        <ListBox MouseDoubleClick="listboxnavi_MouseDoubleClick" Name="listboxnavi" HorizontalAlignment="Left" Height="184" VerticalAlignment="Top" Width="193" Canvas.Left="36" Canvas.Top="49"/>
+        <ListBox MouseDoubleClick="listboxcomandanti_MouseDoubleClick" Name="listboxcomandanti" HorizontalAlignment="Left" Height="184" VerticalAlignment="Top" Width="193" Canvas.Left="274" Canvas.Top="49"/>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top" >
+                <MenuItem Header="Apri" Name="btnapri" Click="btnapri_Click">
+                </MenuItem>
+                <MenuItem Header="Salva" Name="btnsalva" Click="btnsalva_Click">
+                </MenuItem>
+                <MenuItem Header="Aggiungi">
+                    <MenuItem Header="Nave" Name="btnaddnave" Click="btnaddnave_Click"/>
+                    <MenuItem Header="Comandante" Name="btnaddcomandante" Click="btnaddcomandante_Click"/>
+                </MenuItem>
+                <MenuItem Header="Crea incarico" Name="btncreaincarico" Click="btncreaincarico_Click">
+                </MenuItem>
+            </Menu>
+        </DockPanel>
+        <TextBlock TextAlignment="Center" Canvas.Left="274" TextWrapping="Wrap" Canvas.Top="28" Width="193"><Run Text="Comandanti"/></TextBlock>
+        <TextBlock TextAlignment="Center" Canvas.Left="36" TextWrapping="Wrap" Canvas.Top="28" Width="193"><Run Text="Navi"/></TextBlock>
+        <ListBox MouseDoubleClick="listboxincarichi_MouseDoubleClick" Name="listboxincarichi" HorizontalAlignment="Left" Height="184" VerticalAlignment="Top" Width="193" Canvas.Left="36" Canvas.Top="271"/>
+        <TextBlock TextAlignment="Center" Canvas.Left="36" TextWrapping="Wrap" Canvas.Top="250" Width="193"><Run Text="Incarichi"/></TextBlock>
+        
+    </Canvas>
+</Window>
